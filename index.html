@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div style="position: relative;">
+        <div id="loader" class="none">
+        <img class="loader-img" src="./img/loader.svg" alt="">
+        </div>
+      <div>
+        <input type="search" name="" id="search" />
+      
+            <select name="" id="select">
+                <option value="" disabled >STATUS</option>
+                <option value="All">All</option>
+                <option value="Alive">Alive</option>
+                <option value="unknown">Unknown</option>
+                <option value="Dead">Dead</option>
+            </select>
+            <span class="select-count"></span>
+   
+   
+      <p class="search-nothing">NOTHING</p>
+    </div>
+      <div id="chatacters"></div>   
+      <div class="btn-nav">
+      <button id="prev-page">PREV</button>
+      <span class="total-page"></span>
+      <button id="next-page">NEXT</button>
+      </div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
